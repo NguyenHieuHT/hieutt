@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+  margin: 0;  
+  font-weight: 400;
+}
+.container{
+  max-width: 1170px;
+  width: 100%;
+  /* background: red; */
+  margin: auto;
+}
+.home{
+  height: 100vh;
+  background-image: url("https://www.freecodecamp.org/news/content/images/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 15px;
+  position: relative;
+}
+.home ::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.1);
+  z-index: 1;
+}
+.home .home-text{
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.home .home-text h1{
+  color: white;
+  font-size: 50px;
+}
+.home .home-text p{
+  margin: 0;
+  overflow: hidden; 
+}
+.home .home-text p span{
+  font-size: 40px;
+  color: white;
+  font-weight:300;
+  display: inline-block;
+  display: none;
+}
+.home .home-text p span.text-in{
+  display: block;
+  animation: text-In .5s ease;
+}
+.home .home-text p span.text-out{
+  display: block;
+  animation: text-In .5s ease;
+}
+@keyframes text-In{
+  0%{
+    transform: translateY(100%);
+  }
+  100%{
+    transform: translateY(0%);
+  }
+}
+@keyframes text-Out{
+  0%{
+    transform: translateY(0%);
+  }
+  100%{
+    transform: translateY(-100%);
+  }
+}

@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.site-header{
+    max-width: 100%;
+    margin: 0;
+    padding: 10px 40px;
+
+}
+.site-menu{
+    margin-right:30px;
+}
+.icon{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
