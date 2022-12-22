@@ -19,6 +19,7 @@
     left: 0;
     right: 0;
     top: 0;
+    z-index: 1;
 }
 .site-header .header-left{
     display: flex;
@@ -141,13 +142,13 @@
 
 .site-main{
     /* height: 2000px; */
-    background: rgb(175, 191, 223);
+    /* background: rgb(175, 191, 223); */
     padding: 0 45px;
 }
 
 .site-main .block-uu-dai{
     padding: 10px 0;
-    background: violet;
+    /* background: violet; */
 }
 .block-hot-deal{
     width: 100%;
@@ -175,7 +176,6 @@
     align-items: center;
     justify-content: center;
     background-color: rgb(233, 233, 218);
-    border-radius: 15px 0 0 0;
 }
 .row2 .block-title{
     height: auto;
@@ -191,7 +191,7 @@
 }
 .row2 .form-subscribe{
     height: auto;
-    width: 190px;
+    /* width: 190px; */
     padding: 10px;
     display: flex;
     background:white;
@@ -200,10 +200,12 @@
     border: none;
     outline: none;
     font-size: 10px;
+    width: 190px;
 }.row2 .form-subscribe button{
     border: none;
     background: white;
     height: auto;
+    cursor: pointer;
 }
 
 .row2 .block-social{
@@ -213,16 +215,157 @@
     background-color: rgb(233, 233, 218);
     border-radius: 0 0 15px 0;
 }
+/*  //////////////////////////////*/
 .block-contents{
-    height: 200px;
+    height: auto;
     width: 100%;
-    background-color: azure
+    /* background-color: azure; */
 }
+.block-blog{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.block-blog .block-title{
+    height: 25px;
+    margin-bottom: 21px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+.block-blog .home-post{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+.block-blog .home-post .home-post-item{
+    min-width: 33.333333333%;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.home-post-item-photo a{
+    display: block;
+    position: relative;
+    padding: 50.05% 0 0;
+}
+.block-blog a{
+    text-decoration: none;
+}
+.home-post-item-photo img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+.home-post-item-details{
+    padding-top: 16px;
+    min-height: 184px;
+}
+.home-post-item-cat{
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #63b1bc;
+}
+.home-post-item-title{
+    display: block;
+    color: #333F48;
+    margin: 0;
+    font-weight: 700;
 
+    font-size: 16px;
+    height: 56px;
+}
+.home-post-item-title a{
+    color: #333F48;
+}
+.home-post-item-date{
+    color: #c8c7cc;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+.block-blog .readmore{
+    margin-bottom: 48px;
+    text-align: center;
+}
+.block-blog .readmore a{
+    display: inline-block;
+    color: #333F48;
+    font-weight: 700px;
+    width: 100%;
+    border: 1px solid #c8c7cc;
+    border-radius: 2px;
+    padding: 12px;
+    font-size: 14px;
+    max-width: 624px;
+}
 
 /* site-main */
 .site-footer{
-    height: 500px;
+    height: 300px;
     background: rgb(129, 217, 233);
+    font-family:  'Arial Narrow', Arial, sans-serif;
+
+}
+.footer-content{
+    padding: 38px 56px 30px;
+    background-color: #2d393f;
+}
+.footer-content .row{
+    justify-content: space-between;
+}
+.footer-content .col-sm-3{
+    width: auto;
+    max-width: 340px;
+}.site-footer h3{
+    font-size: 14px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    color: #f6f6f6;
+}
+.footer-content .cl1 p{
+    margin-bottom: 8px;
+    color: #f6f6f6;
 }
 
+
+.site-footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.site-footer ul li{
+    margin: 0 0 12px;
+    color: #f6f6f6;
+
+}
+.footer-content .bancode img{
+    height: 35px;
+}
+.site-footer img{
+    vertical-align: middle;
+}
+.footer-content .cl4 p{
+    margin-bottom: 8px;
+}
+
+/* .footer-content */
+.footer-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d393f;
+    color: #fff;
+    border-top: groove white;
+    padding: 16px 40px;
+}
+.footer-bottom .footer-social{
+    margin: 0;
+    margin-left: auto;
+}
+.footer-bottom .footer-social a{
+    margin: 0 0 0 16px;
+}
