@@ -530,8 +530,8 @@
 .sidebar-fix-right .support{
     background-color: #da291c;
     border-radius: 4px 0 0 4px;
-    width: 32px;
-    height: 32px;
+    width: 36px;
+    height: 36px;
     text-align: center;
     font-weight: 700;
     color: #fff;
@@ -539,7 +539,7 @@
     padding-top: 20px;
     background-repeat: no-repeat;
     background-position: center top 4px;
-    background-image: url(https://flyclipart.com/thumb2/message-icons-42221.png);
+    background-image: url();
     background-size: 20px 20px;
     display: block;
     cursor: pointer;
@@ -558,8 +558,8 @@
     text-transform: uppercase;
     padding-top: 18px;
     font-size: 10px;
-    width: 32px;
-    height: 32px;
+    width: 36px;
+    height: 36px;
     display: block;
     background-repeat: no-repeat;
     background-position: center top;
