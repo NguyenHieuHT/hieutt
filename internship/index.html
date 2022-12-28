@@ -13,11 +13,6 @@
 
 <body>
     <div class="wrapper">
-        <!-- <div class="nav__overlay">
-            <div class="login">
-
-            </div>
-        </div> -->
         <header class="site-header">
             <div class="header-left">
                 <div class="icon">
@@ -40,12 +35,13 @@
                 <div class="bar-right">
                     <li><a href="" class="store"><i class="fa-solid fa-store"
                                 style="font-size: 20px; color:#6c757b;"></i></a></li>
-                    <li><a href="" class="wishlist"><i class="fa-solid fa-heart"
+                    <li><a class="wishlist"><i class="fa-solid fa-heart"
                                 style="font-size: 20px; color:#6c757b;"></i></a></li>
-                    <li><a href="" class="account"><i class="fa-solid fa-circle-user"
-                                style="font-size: 20px; color:#6c757b;"></i></a></li>
+                    <li><a class="account openOverlay"><i class="fa-solid fa-circle-user"
+                                style="font-size: 20px; color:#6c757b; cursor: pointer;"></i></a></li>
                     <li><a href="" class="cart"><i class="fa-solid fa-bag-shopping"
                                 style="font-size: 20px; color:#6c757b;"></i></a></li>
+
                 </div>
             </div>
         </header>
@@ -78,15 +74,8 @@
                     <div class="viewall"></div>
                 </div>
                 <div class="block-content">
-                    <div class="block-content-container">
-                        <div class="block-content-container-item">
-                            <div class="block-content-container-item-items">
-
-                            </div>
-                        </div>
-                        <div class="block-content-container-btn">
-
-                        </div>
+                    <div class="product-item product-item-slide slick-slide slick-initialized">
+                        <span type="button" class="slick-prew"></span>
                     </div>
                 </div>
             </div>
@@ -340,11 +329,46 @@
                 <span>Top</span>
             </div>
         </div>
+        <div class="o-modal">
+            <span>
+                <div class="modal-login modal">
+                    <div class="sf-modal">
+                        <div class="sf-modal__container">
+                            <div class="sf-modal__content">
+                                <div class="modal-container">
+                                    <div id="closeOverlay" class="modal-close"></div>
+                                    <div class="modal-content">
+                                        <div class="block-login">
+                                            <div class="block-title">
+                                                <a class="title active">Đăng nhập</a>
+                                                <a class="title">Khách hàng mới</a>
+                                            </div>
+                                            <div class="block-content">
+                                                <label for="">Cảm ơn bạn đã trở lại</label>
+                                                <input type="text" class="input-phone"
+                                                    placeholder="Vui lòng nhập số điện thoại">
+                                                <div class="actions"><button class="btn">Tiếp tục</button></div>
+                                                <div class="text">
+                                                    "Bằng việc chọn tiếp tục bạn đã đồng ý với " <a href="">Điều khoản
+                                                        và điều kiện</a> "cùng " <a href="">Chính sách bảo mật và chia
+                                                        xẻ thông tin</a> "của CANIFA"
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </span>
+        </div>
     </div>
     <script src="/item.js"></script>
     <script src="/jquery-3.6.2.min.js"></script>
     <script src="/backtop.js"></script>
+    <script src="/overlay.js"></script>
 </body>
 
 </html>
