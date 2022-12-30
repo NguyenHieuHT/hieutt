@@ -173,6 +173,7 @@
 .product-item {
     padding: 0 8px;
     list-style: none;
+    /* position: relative; */
 }
 .product-item-info {
     position: relative;
@@ -338,9 +339,19 @@
 .product-item .progress-buy-text .value {
     color: #63b1bc;
 }
-/* ------------ */
-
-
+/* ------slide-product-btn------ */
+.slide-product-btn {
+    position: absolute;
+    top: 30%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+}
+.slide-product-btn i{
+    cursor: pointer;
+    font-size: 30px;
+}
 
 
 /* ----------- */
