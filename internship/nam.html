@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CANIFA</title>
+    <link rel="stylesheet" href="nam.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap-grid.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="site-header">
+            <div class="header-left">
+                <div class="icon">
+                    <a href="/index.html"><img src="https://canifa.com/assets/images/logo.svg" alt=""></a>
+                </div>
+                <div class="bar">
+                    <li><a href="/index.html">TRANG CHỦ</a></li>
+                    <li><a href="">NỮ</a></li>
+                    <li><a href="" style="color: #333f48;">NAM <span class="active-men"></span></a></li>
+                    <li><a href="">BÉ GÁI</a></li>
+                    <li><a href="">BÉ TRAI</a></li>
+                    <li><a href="">CANIFAZ</a></li>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="search">
+                    <button id="btn"><i class="fa fa-search"></i></button>
+                    <input type="input" id="text" placeholder="Bạn tìm gì...">
+                </div>
+                <div class="bar-right">
+                    <li><a href="" class="store"><i class="fa-solid fa-store"
+                                style="font-size: 20px; color:#6c757b;"></i></a></li>
+                    <li><a class="wishlist "><i class="fa-solid fa-heart"
+                                style="font-size: 20px; color:#6c757b;"></i></a></li>
+                    <li><a class="account openOverlay"><i class="fa-solid fa-circle-user"
+                                style="font-size: 20px; color:#6c757b; cursor: pointer;"></i></a></li>
+                    <li><a href="" class="cart"><i class="fa-solid fa-bag-shopping"
+                                style="font-size: 20px; color:#6c757b;"></i></a></li>
+
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+        <div class="header-menu" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">
+            <div class="ui-menu">
+                <li class="level0"><a href=""> Sản phẩm mới</a></li>
+                <li class="level0"><a href=""> Thời trang hằng ngày</a></li>
+                <li class="level0"><a href=""> Đồ mặc nhà</a></li>
+                <li class="level0"><a href=""> Thời trang thiết yếu</a></li>
+                <li class="level0"><a href=""> Sản phẩm giá tốt</a></li>
+                <li class="level0"><a href=""> Sản phẩm đặc biệt</a></li>
+                <li class="level0"><a href=""> Đồng giá từ 99K</a></li>
+            </div>
+        </div>
+        <!-- item -->
+        <!-- <div class="home-banner-fullwidth" style="cursor: pointer;">
+
+            <img src="https://media.canifa.com/Simiconnector/list_image_tablet1671098232.webp" alt=""
+                style="max-width:100%">
+        </div> -->
+        <main class="site-main">
+            <div class="breadcrumbs" style="margin-top: 90px; margin-bottom: 10px;">
+                <ul class="items">
+                    <li class="item"><a href="/index.html" class="router-link-active">
+                            Trang chủ
+                        </a></li>
+                    <li class="item"><strong>Nam</strong></li>
+                </ul>
+            </div>
+            <!--  -->
+            <div class="block-uu-dai block1">
+                <img src="https://media.canifa.com/Simiconnector/banner_name_tablet1671851797.webp" alt=""
+                    style="max-width:100%">
+            </div>
+            <div class="block-hot-deal"
+                style="padding-top: 25px;padding-bottom: 25px; font-family: Arial, Helvetica, sans-serif;">
+                <div class="block-heading" style="margin-bottom: 16px;">
+                    <h2 class="title" style="color: #333f48;"> Danh mục sản phẩm</h2>
+                    <div class="viewall"></div>
+                </div>
+                <div class="block-content" style="border-bottom:1px solid #6c757b;">
+                    <div style="font-family: Arial, Helvetica, sans-serif;"
+                        class="product-item product-item-slide slick-slide slick-initialized">
+                        <div class="slick-list" id="formList" style="scroll-behavior:smooth;">
+                            <div class="slick-track">
+                                <div class="product">
+                                    <div class="slick-slide slick-active slick-current"
+                                        style="outline: none; width: 290px;">
+
+                                        <div class="category-items" style="width: 100%; display: inline-block;">
+                                            <div class="category-item-info">
+                                                <div class="category-item-photo"><a href="">
+                                                        <img
+                                                            src="https://media.canifa.com/Simiconnector/simicategory_filename_tablet1672294283.webp"></a>
+                                                </div>
+                                                <h3 class="category-item-title"><a>Áo khoác lông vũ</a></h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="slick-slide slick-active slick-current"
+                                        style="outline: none; width: 290px;">
+
+                                        <div class="category-items" style="width: 100%; display: inline-block;">
+                                            <div class="category-item-info">
+                                                <div class="category-item-photo"><a href="">
+                                                        <img width="100" height="100"
+                                                            src="https://media.canifa.com/Simiconnector/simicategory_filename_tablet1672294397.webp"></a>
+                                                </div>
+                                                <h3 class="category-item-title"><a>Áo len</a></h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="slick-slide slick-active slick-current"
+                                        style="outline: none; width: 290px;">
+
+                                        <div class="category-items" style="width: 100%; display: inline-block;">
+                                            <div class="category-item-info">
+                                                <div class="category-item-photo"><a href="">
+                                                        <img width="100" height="100"
+                                                            src="https://media.canifa.com/Simiconnector/simicategory_filename_tablet1672294418.webp"></a>
+                                                </div>
+                                                <h3 class="category-item-title"><a>Áo nỉ</a></h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="slick-slide slick-active slick-current"
+                                        style="outline: none; width: 290px;">
+
+                                        <div class="category-items" style="width: 100%; display: inline-block;">
+                                            <div class="category-item-info">
+                                                <div class="category-item-photo"><a href="">
+                                                        <img width="100" height="100"
+                                                            src="https://media.canifa.com/Simiconnector/simicategory_filename_tablet1672294433.webp"></a>
+                                                </div>
+                                                <h3 class="category-item-title"><a>Áo nỉ có mũ</a></h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="slick-slide slick-active slick-current"
+                                        style="outline: none; width: 290px;">
+
+                                        <div class="category-items" style="width: 100%; display: inline-block;">
+                                            <div class="category-item-info">
+                                                <div class="category-item-photo"><a href="">
+                                                        <img width="100" height="100"
+                                                            src="https://media.canifa.com/Simiconnector/simicategory_filename_tablet1664983519.webp"></a>
+                                                </div>
+                                                <h3 class="category-item-title"><a>Bộ mặc nhà</a></h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="slick-slide slick-active slick-current"
+                                        style="outline: none; width: 290px;">
+
+                                        <div class="category-items" style="width: 100%; display: inline-block;">
+                                            <div class="category-item-info">
+                                                <div class="category-item-photo"><a href="">
+                                                        <img width="100" height="100"
+                                                            src="https://media.canifa.com/Simiconnector/simicategory_filename_tablet1672294283.webp"></a>
+                                                </div>
+                                                <h3 class="category-item-title"><a>Áo khoác lông vũ</a></h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="slick-slide slick-active slick-current"
+                                        style="outline: none; width: 290px;">
+
+                                        <div class="category-items" style="width: 100%; display: inline-block;">
+                                            <div class="category-item-info">
+                                                <div class="category-item-photo"><a href="">
+                                                        <img width="100" height="100"
+                                                            src="https://media.canifa.com/Simiconnector/simicategory_filename_tablet1672294283.webp"></a>
+                                                </div>
+                                                <h3 class="category-item-title"><a>Áo khoác lông vũ</a></h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="slick-slide slick-active slick-current"
+                                        style="outline: none; width: 290px;">
+
+                                        <div class="category-items" style="width: 100%; display: inline-block;">
+                                            <div class="category-item-info">
+                                                <div class="category-item-photo"><a href="">
+                                                        <img width="100" height="100"
+                                                            src="https://media.canifa.com/Simiconnector/simicategory_filename_tablet1672294283.webp"></a>
+                                                </div>
+                                                <h3 class="category-item-title"><a>Áo khoác lông vũ</a></h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="slick-slide slick-active slick-current"
+                                        style="outline: none; width: 290px;">
+
+                                        <div class="category-items" style="width: 100%; display: inline-block;">
+                                            <div class="category-item-info">
+                                                <div class="category-item-photo"><a href="">
+                                                        <img width="100" height="100"
+                                                            src="https://media.canifa.com/Simiconnector/simicategory_filename_tablet1672294283.webp"></a>
+                                                </div>
+                                                <h3 class="category-item-title"><a>Áo khoác lông vũ</a></h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="slide-product-btn">
+                        <span id="prev"><i class="fa-solid fa-angle-left"></i></span>
+                        <span id="next"><i class="fa-solid fa-angle-right"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="block-product">
+                <div class="block-heading">
+                    <h2 class="title">Giảm 50% sản phẩm Đỏ</h2>
+                </div>
+                <div class="block-content">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="slider">
+                                <div class="slides">
+                                    <input type="radio" name="radio-btn" id="radio1">
+                                    <input type="radio" name="radio-btn" id="radio2">
+                                    <input type="radio" name="radio-btn" id="radio3">
+                                    <!--  -->
+                                    <div class="slide first">
+                                        <img src="https://media.canifa.com/Simiconnector/list_image_tablet1672220643.webp"
+                                            alt="">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://media.canifa.com/Simiconnector/list_image_tablet1672220643.webp"
+                                            alt="">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://media.canifa.com/Simiconnector/list_image_tablet1672220643.webp"
+                                            alt="">
+                                    </div>
+                                    <!--  -->
+                                    <div class="nav-auto">
+                                        <div class="auto-btn1"></div>
+                                        <div class="auto-btn2"></div>
+                                        <div class="auto-btn3"></div>
+                                    </div>
+                                    <!--  -->
+                                </div>
+                                <!--  -->
+                                <div class="nav-manual">
+                                    <label for="radio1" class="manual-btn"></label>
+                                    <label for="radio2" class="manual-btn"></label>
+                                    <label for="radio3" class="manual-btn"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="slick-list" id="formList2" style="scroll-behavior:smooth;">
+                                <div class="slick-track">
+                                    <div class="product2">
+                                        <div class="product-item" style="width: 360px; outline: none;">
+                                            <div class="product-item-info">
+                                                <div class="product-item-img"><a href=""><img
+                                                            src="https://canifa.com/img/486/733/resize/8/t/8tp22a002-sr067-2-thumb-a.webp"
+                                                            alt=""></a></div>
+                                                <span class="price-percent">-30%</span>
+                                                <div class="product-item-text">
+                                                    <h3 class="product-item-name"><a href="">Áo
+                                                            đen lông cừu Úc nam</a>
+                                                    </h3>
+                                                    <span class="price">629.300 đ</span><br>
+                                                    <span class="price old-price">899.000 đ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product2">
+                                        <div class="product-item" style="width: 360px; outline: none;">
+                                            <div class="product-item-info">
+                                                <div class="product-item-img"><a href=""><img
+                                                            src="https://canifa.com/img/486/733/resize/8/t/8tp22s004-pr102-1.webp"
+                                                            alt=""></a></div>
+                                                <span class="price-percent">-30%</span>
+                                                <div class="product-item-text">
+                                                    <h3 class="product-item-name"><a href="">Áo
+                                                            đen lông cừu Úc nam</a>
+                                                    </h3>
+                                                    <span class="price">629.300 đ</span><br>
+                                                    <span class="price old-price">899.000 đ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product2">
+                                        <div class="product-item" style="width: 360px; outline: none;">
+                                            <div class="product-item-info">
+                                                <div class="product-item-img"><a href=""><img
+                                                            src="https://canifa.com/img/486/733/resize/8/l/8ls22s009-sr241-2-thumb.webp"
+                                                            alt=""></a></div>
+                                                <span class="price-percent">-30%</span>
+                                                <div class="product-item-text">
+                                                    <h3 class="product-item-name"><a href="">Áo
+                                                            đen lông cừu Úc nam</a>
+                                                    </h3>
+                                                    <span class="price">629.300 đ</span><br>
+                                                    <span class="price old-price">899.000 đ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product2">
+                                        <div class="product-item" style="width: 360px; outline: none;">
+                                            <div class="product-item-info">
+                                                <div class="product-item-img"><a href=""><img
+                                                            src="https://canifa.com/img/486/733/resize/8/t/8ts22s075-sr074-2-thumb.webp"
+                                                            alt=""></a></div>
+                                                <span class="price-percent">-30%</span>
+                                                <div class="product-item-text">
+                                                    <h3 class="product-item-name"><a href="">Áo
+                                                            đen lông cừu Úc nam</a>
+                                                    </h3>
+                                                    <span class="price">629.300 đ</span><br>
+                                                    <span class="price old-price">899.000 đ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product2">
+                                        <div class="product-item" style="width: 360px; outline: none;">
+                                            <div class="product-item-info">
+                                                <div class="product-item-img"><a href=""><img
+                                                            src="https://canifa.com/img/486/733/resize/8/t/8te22w011-sr148-xl-1.webp"
+                                                            alt=""></a></div>
+                                                <span class="price-percent">-30%</span>
+                                                <div class="product-item-text">
+                                                    <h3 class="product-item-name"><a href="">Áo
+                                                            đen lông cừu Úc nam</a>
+                                                    </h3>
+                                                    <span class="price">629.300 đ</span><br>
+                                                    <span class="price old-price">899.000 đ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product2">
+                                        <div class="product-item" style="width: 360px; outline: none;">
+                                            <div class="product-item-info">
+                                                <div class="product-item-img"><a href=""><img
+                                                            src="https://canifa.com/img/486/733/resize/8/t/8te22w011-sr148-xl-1.webp"
+                                                            alt=""></a></div>
+                                                <span class="price-percent">-30%</span>
+                                                <div class="product-item-text">
+                                                    <h3 class="product-item-name"><a href="">Áo
+                                                            đen lông cừu Úc nam</a>
+                                                    </h3>
+                                                    <span class="price">629.300 đ</span><br>
+                                                    <span class="price old-price">899.000 đ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="slide-product-btn" style="bottom: 320px;">
+                                <span id="prev2"><i class="fa-solid fa-angle-left"></i></span>
+                                <span id="next2"><i class="fa-solid fa-angle-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block-product">
+                <div class="block-heading">
+                    <h2 class="title">Giảm 50% sản phẩm Trắng</h2>
+                </div>
+                <div class="block-content">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="slider">
+                                <div class="slides">
+                                    <input type="radio" name="radio-btn" id="radio1">
+                                    <input type="radio" name="radio-btn" id="radio2">
+                                    <input type="radio" name="radio-btn" id="radio3">
+                                    <!--  -->
+                                    <div class="slide first">
+                                        <img src="https://media.canifa.com/Simiconnector/list_image_tablet1672220691.webp"
+                                            alt="">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://media.canifa.com/Simiconnector/list_image_tablet1672220691.webp"
+                                            alt="">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://media.canifa.com/Simiconnector/list_image_tablet1672220691.webp"
+                                            alt="">
+                                    </div>
+                                    <!--  -->
+                                    <div class="nav-auto">
+                                        <div class="auto-btn1"></div>
+                                        <div class="auto-btn2"></div>
+                                        <div class="auto-btn3"></div>
+                                    </div>
+                                    <!--  -->
+                                </div>
+                                <!--  -->
+                                <div class="nav-manual">
+                                    <label for="radio1" class="manual-btn"></label>
+                                    <label for="radio2" class="manual-btn"></label>
+                                    <label for="radio3" class="manual-btn"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="slick-list" id="formList3" style="scroll-behavior:smooth;">
+                                <div class="slick-track">
+                                    <div class="product3">
+                                        <div class="product-item" style="width: 360px; outline: none;">
+                                            <div class="product-item-info">
+                                                <div class="product-item-img"><a href=""><img
+                                                            src="https://canifa.com/img/486/733/resize/8/t/8tw22009-sw011-1-thumb.webp"
+                                                            alt=""></a></div>
+                                                <span class="price-percent">-30%</span>
+                                                <div class="product-item-text">
+                                                    <h3 class="product-item-name"><a href="">Áo
+                                                            đen lông cừu Úc nam</a>
+                                                    </h3>
+                                                    <span class="price">629.300 đ</span><br>
+                                                    <span class="price old-price">899.000 đ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product3">
+                                        <div class="product-item" style="width: 360px; outline: none;">
+                                            <div class="product-item-info">
+                                                <div class="product-item-img"><a href=""><img
+                                                            src="https://canifa.com/img/486/733/resize/5/t/5tl22w001-sw001-1-thumb.webp"
+                                                            alt=""></a></div>
+                                                <span class="price-percent">-30%</span>
+                                                <div class="product-item-text">
+                                                    <h3 class="product-item-name"><a href="">Áo
+                                                            đen lông cừu Úc nam</a>
+                                                    </h3>
+                                                    <span class="price">629.300 đ</span><br>
+                                                    <span class="price old-price">899.000 đ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product3">
+                                        <div class="product-item" style="width: 360px; outline: none;">
+                                            <div class="product-item-info">
+                                                <div class="product-item-img"><a href=""><img
+                                                            src="https://canifa.com/img/486/733/resize/8/t/8tl22w009-sw119-1-thumb.webp"
+                                                            alt=""></a></div>
+                                                <span class="price-percent">-30%</span>
+                                                <div class="product-item-text">
+                                                    <h3 class="product-item-name"><a href="">Áo
+                                                            đen lông cừu Úc nam</a>
+                                                    </h3>
+                                                    <span class="price">629.300 đ</span><br>
+                                                    <span class="price old-price">899.000 đ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product3">
+                                        <div class="product-item" style="width: 360px; outline: none;">
+                                            <div class="product-item-info">
+                                                <div class="product-item-img"><a href=""><img
+                                                            src="https://canifa.com/img/486/733/resize/8/t/8tl22w014-sw001-1-thumb.webp"
+                                                            alt=""></a></div>
+                                                <span class="price-percent">-30%</span>
+                                                <div class="product-item-text">
+                                                    <h3 class="product-item-name"><a href="">Áo
+                                                            đen lông cừu Úc nam</a>
+                                                    </h3>
+                                                    <span class="price">629.300 đ</span><br>
+                                                    <span class="price old-price">899.000 đ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product3">
+                                        <div class="product-item" style="width: 360px; outline: none;">
+                                            <div class="product-item-info">
+                                                <div class="product-item-img"><a href=""><img
+                                                            src="https://canifa.com/img/486/733/resize/8/t/8tl22w011-sw119-xl-1.webp"
+                                                            alt=""></a></div>
+                                                <span class="price-percent">-30%</span>
+                                                <div class="product-item-text">
+                                                    <h3 class="product-item-name"><a href="">Áo
+                                                            đen lông cừu Úc nam</a>
+                                                    </h3>
+                                                    <span class="price">629.300 đ</span><br>
+                                                    <span class="price old-price">899.000 đ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product3">
+                                        <div class="product-item" style="width: 360px; outline: none;">
+                                            <div class="product-item-info">
+                                                <div class="product-item-img"><a href=""><img
+                                                            src="https://canifa.com/img/486/733/resize/8/t/8tl21w009-sw001-l-1.webp"
+                                                            alt=""></a></div>
+                                                <span class="price-percent">-30%</span>
+                                                <div class="product-item-text">
+                                                    <h3 class="product-item-name"><a href="">Áo
+                                                            đen lông cừu Úc nam</a>
+                                                    </h3>
+                                                    <span class="price">629.300 đ</span><br>
+                                                    <span class="price old-price">899.000 đ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="slide-product-btn" style="bottom: 320px;">
+                                <span id="prev3"><i class="fa-solid fa-angle-left"></i></span>
+                                <span id="next3"><i class="fa-solid fa-angle-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image-category" style="padding: 20px 0;">
+                <a href=""><img src="https://media.canifa.com/Simiconnector/list_image_tablet1672236338.webp" alt=""
+                        style="width: 100%;"></a>
+            </div>
+            <div class="image-category" style="padding: 20px 0;">
+                <a href=""><img src="https://media.canifa.com/Simiconnector/list_image_tablet1672236263.webp" alt=""
+                        style="width: 100%;"></a>
+            </div>
+            <div class="image-category" style="padding: 20px 0;">
+                <a href=""><img src="https://media.canifa.com/Simiconnector/list_image_tablet1672236170.webp" alt=""
+                        style="width: 100%;"></a>
+            </div>
+
+        </main>
+        <!-- main -->
+        <footer class="site-footer">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-sm-3 cl1">
+                        <h3>CÔNG TY CỔ PHẦN CANIFA</h3>
+                        <p>Số ĐKKD: 0107574310, ngày cấp: 23/09/2016, nơi cấp: Sở Kế hoạch và đầu tư Hà Nội</p>
+                        <p>Trụ sở chính: Số 688, Đường Quang Trung, Phường La Khê, Quận Hà Đông, Hà Nội, Việt Nam</p>
+                        <p>Địa chỉ liên hệ: Phòng 301 Tòa nhà GP Invest, 170 La Thành, P. Ô Chợ Dừa, Q. Đống Đa, Hà Nội
+                        </p>
+                        <p>Số điện thoại: +8424 - 7303.0222</p>
+                        <p>Fax: +8424 - 6277.6419</p>
+                        <p>Địa chỉ email: hello@canifa.com</p>
+                    </div>
+                    <div class="col-sm-3 cl2">
+                        <h3>Thương hiệu</h3>
+                        <ul>
+                            <li title="Giới thiệu"><span>Giới thiệu</span></li>
+                            <li title="Tin tức"><span>Tin tức</span></li>
+                            <li title="Tuyển dụng"><span>Tuyển dụng</span></li>
+                            <li title="Với cộng đồng"><span>Với cộng đồng</span></li>
+                            <li title="Hệ thống cửa hàng"><span>Hệ thông cửa hàng</span></li>
+                            <li title="Liên hệ"><span>Liên hệ</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 cl3">
+                        <h3>Hỗ trợ</h3>
+                        <ul>
+                            <li title="Hỏi đáp"><span>Hỏi đáp</span></li>
+                            <li title="Chính sách KHTT"><span>Chính sách KHTT</span></li>
+                            <li title="Chính sách vận chuyển"><span>Chính sách vận chuyển</span></li>
+                            <li title="Hướng dẫn chọn size"><span>Hướng dẫn chọn size</span></li>
+                            <li title="Kiểm tra đơn hàng"><span>Kiểm tra đơn hàng</span></li>
+                            <li title="Quy định đổi hàng"><span>Quy định đổi hàng</span></li>
+                            <li title="Tra cứu điểm thẻ"><span>Tra cứu điểm thẻ</span></li>
+                            <li title="Chính sách bảo mật"><span>Chính sách bảo mật</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 cl4">
+                        <h3>Tải ứng dụng trên điện thoại</h3>
+                        <div class="bancode">
+                            <img src="https://canifa.com/assets/images/bancode.png" alt="">
+                            <a href=""><img src="https://canifa.com/assets/images/googleplay.png" alt=""></a>
+                            <a href=""><img src="https://canifa.com/assets/images/appstore.png" alt=""></a>
+                        </div>
+                        <br>
+                        <h3>Phương thức thanh toán</h3>
+                        <p><img src="https://canifa.com/assets/images/pay.svg" alt=""></p>
+                        <div><a href=""><img src="https://canifa.com/assets/images/bocongthuong.png" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer-content -->
+            <div class="footer-bottom">
+                <div class="copy-r">@ 2022 CANIFA</div>
+                <div class="footer-social">
+                    <span>Visit Us</span>
+                    <a href="" style="font-size: 20px;color:white;"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="" style="font-size: 20px;color:white;"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" style="font-size: 20px;color:white;"> <i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <!-- footer-bottom -->
+        </footer>
+        <!-- footer -->
+        <div class="sidebar-fix-right">
+            <a href="" class="support"><span>Hỗ trợ</span></a>
+            <div class="back-to-top">
+                <span>Top</span>
+            </div>
+        </div>
+        <div class="o-modal">
+            <span>
+                <div class="modal-login modal">
+                    <div class="sf-modal">
+                        <div class="sf-modal__container">
+                            <div class="sf-modal__content">
+                                <div class="modal-container">
+                                    <div id="closeOverlay" class="modal-close"></div>
+                                    <div class="modal-content">
+                                        <div class="block-login">
+                                            <div class="block-title">
+                                                <a class="title active">Đăng nhập</a>
+                                                <a class="title">Khách hàng mới</a>
+                                            </div>
+                                            <div class="block-content">
+                                                <label for="">Cảm ơn bạn đã trở lại</label>
+                                                <input type="text" class="input-phone"
+                                                    placeholder="Vui lòng nhập số điện thoại">
+                                                <div class="actions"><button class="btn">Tiếp tục</button></div>
+                                                <div class="text">
+                                                    "Bằng việc chọn tiếp tục bạn đã đồng ý với " <a href="">Điều khoản
+                                                        và điều kiện</a> "cùng " <a href="">Chính sách bảo mật và chia
+                                                        xẻ thông tin</a> "của CANIFA"
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </span>
+        </div>
+    </div>
+    <script src="/item.js"></script>
+    <script src="/jquery-3.6.2.min.js"></script>
+    <script src="/backtop.js"></script>
+    <script src="/overlay.js"></script>
+    <script src="/slidebtn.js"></script>
+    <script>
+        var counter = 1;
+        setInterval(function () {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if (counter > 3) {
+                counter = 1;
+            }
+        }, 3000);
+    </script>
+</body>
+
+</html>
